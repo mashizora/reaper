@@ -1,0 +1,19 @@
+desc:    Downmix to Stereo
+author:  mashizora
+version: 0.1.0
+
+slider1:0<0,1,1{Basic,Dolby Atmos}>Mode
+
+@sample
+spl0 = slider1===0 ? (spl0 + 0.707*spl2 + 0.707*spl4 + 0.707*spl6 + 0.707*spl8 + 0.5*spl10) : (0.953*spl0 + 0.301*spl1 + spl2 + 0.953*spl4 + 0.301*spl5 + 0.997*spl6 + 0.070*spl7 + 0.872*spl8 + 0.490*spl9 + 0.872*spl10 + 0.490*spl11);
+spl1 = slider1===0 ? (spl1 + 0.707*spl2 + 0.707*spl5 + 0.707*spl7 + 0.707*spl9 + 0.5*spl11) : (0.301*spl0 + 0.953*spl1 + spl2 + 0.301*spl4 + 0.953*spl5 + 0.070*spl6 + 0.997*spl7 + 0.490*spl8 + 0.872*spl9 + 0.490*spl10 + 0.872*spl11);
+spl2 = 0;
+spl3 = 0;
+spl4 = 0;
+spl5 = 0;
+spl6 = 0;
+spl7 = 0;
+spl8 = 0;
+spl9 = 0;
+spl10 = 0;
+spl11 = 0;
