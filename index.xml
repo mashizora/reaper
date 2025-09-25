@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mashizora" commit="1f6205dfb4e78ca23c57fb31e91135d6d8c7f18e">
+<index version="1" name="mashizora" commit="f1b4819012cb0b28d1e1620a6fbc31963da4a881">
   <category name="Effects">
     <reapack name="downmix_to_stereo.jsfx" type="effect" desc="Downmix to Stereo">
       <version name="0.1.0" author="mashizora" time="2025-09-24T07:47:38Z">
@@ -7,10 +7,24 @@
       </version>
     </reapack>
   </category>
+  <category name="effects">
+    <reapack name="downmix_to_stereo.jsfx" type="effect" desc="Downmix to Stereo">
+      <version name="0.1.0" author="mashizora" time="2025-09-25T06:42:26Z">
+        <source>https://github.com/mashizora/reaper/raw/f1b4819012cb0b28d1e1620a6fbc31963da4a881/effects/downmix_to_stereo.jsfx</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Scripts">
     <reapack name="mark_video_item_chapters.lua" type="script" desc="Mark Video Item Chapters">
       <version name="0.1.0" author="mashizora" time="2025-09-24T07:47:38Z">
         <source main="main">https://github.com/mashizora/reaper/raw/1f6205dfb4e78ca23c57fb31e91135d6d8c7f18e/Scripts/mark_video_item_chapters.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="scripts">
+    <reapack name="mark_video_item_chapters.lua" type="script" desc="Mark Video Item Chapters">
+      <version name="0.1.0" author="mashizora" time="2025-09-25T06:42:26Z">
+        <source main="main">https://github.com/mashizora/reaper/raw/f1b4819012cb0b28d1e1620a6fbc31963da4a881/scripts/mark_video_item_chapters.lua</source>
       </version>
     </reapack>
   </category>
