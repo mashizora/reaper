@@ -1,0 +1,23 @@
+name: Update Index
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update-index:
+    name: Update Index
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install reapack-index
+        run: sudo gem install reapack-index
+
+      - name: Setup git configs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+      - name: Build and commit index
+        run: reapack-index --commit && git push
