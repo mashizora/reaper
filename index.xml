@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="mashizora"/>
+<index version="1" name="mashizora" commit="6fd91b901d724b015b236364bd6438ade7a3fd5d">
+  <category name="effects">
+    <reapack name="downmix_to_stereo.jsfx" type="effect" desc="Downmix to Stereo">
+      <version name="0.1.0" author="mashizora" time="2025-10-14T04:20:11Z">
+        <source>https://github.com/mashizora/reaper/raw/6fd91b901d724b015b236364bd6438ade7a3fd5d/effects/downmix_to_stereo.jsfx</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="scripts">
+    <reapack name="add_take_markers_from_video_chapters.lua" type="script" desc="Add take markers from video chapters">
+      <version name="0.1.0" author="mashizora" time="2025-10-14T04:20:11Z">
+        <source main="main">https://github.com/mashizora/reaper/raw/6fd91b901d724b015b236364bd6438ade7a3fd5d/scripts/add_take_markers_from_video_chapters.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
